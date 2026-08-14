@@ -1,0 +1,839 @@
+MSBuild version 17.14.51+25f168cee for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/catalog/catalog_entry/dependency/CMakeLists.txt
+  ub_duckdb_catalog_entries_dependency.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/adbc/nanoarrow/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/adbc/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/catalog/default/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/table/arrow/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/catalog/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/catalog/catalog_entry/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/planner/binder/tableref/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/aggregate/distributive/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/planner/binder/statement/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/planner/binder/query_node/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/planner/binder/expression/CMakeLists.txt
+  ub_duckdb_common.cpp
+  ub_duckdb_adbc_nanoarrow.cpp
+  ub_duckdb_adbc.cpp
+  ub_duckdb_catalog_entries.cpp
+  ub_duckdb_catalog.cpp
+  ub_duckdb_arrow_conversion.cpp
+  ub_duckdb_catalog_default_entries.cpp
+  ub_duckdb_aggr_distr.cpp
+  ub_duckdb_bind_tableref.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/allocator/CMakeLists.txt
+  ub_duckdb_bind_query_node.cpp
+  ub_duckdb_bind_statement.cpp
+  ub_duckdb_bind_expression.cpp
+  ub_duckdb_common_allocator.cpp
+  duckdb_catalog_entries_dependency.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\catalog\catalog_entry\dependency\duckdb_catalog_entries_dependency.dir\Release\duckdb_catalog_entries_dependency.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/arrow/CMakeLists.txt
+  duckdb_common_allocator.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\allocator\duckdb_common_allocator.dir\Release\duckdb_common_allocator.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/arrow/appender/CMakeLists.txt
+  ub_duckdb_common_arrow.cpp
+  ub_duckdb_common_arrow_appender.cpp
+  duckdb_arrow_conversion.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\table\arrow\duckdb_arrow_conversion.dir\Release\duckdb_arrow_conversion.lib
+  duckdb_adbc_nanoarrow.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\adbc\nanoarrow\duckdb_adbc_nanoarrow.dir\Release\duckdb_adbc_nanoarrow.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/crypto/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/enums/CMakeLists.txt
+  duckdb_catalog_default_entries.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\catalog\default\duckdb_catalog_default_entries.dir\Release\duckdb_catalog_default_entries.lib
+  duckdb_common_arrow_appender.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\arrow\appender\duckdb_common_arrow_appender.dir\Release\duckdb_common_arrow_appender.lib
+  duckdb_adbc.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\adbc\duckdb_adbc.dir\Release\duckdb_adbc.lib
+  ub_duckdb_common_enums.cpp
+  ub_duckdb_common_crypto.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/exception/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/multi_file/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/main/http/CMakeLists.txt
+  duckdb_common_crypto.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\crypto\duckdb_common_crypto.dir\Release\duckdb_common_crypto.lib
+  duckdb_bind_tableref.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\planner\binder\tableref\duckdb_bind_tableref.dir\Release\duckdb_bind_tableref.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/operator/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/serializer/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/tree_renderer/CMakeLists.txt
+  ub_duckdb_common_exception.cpp
+  ub_duckdb_common_http.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/types/CMakeLists.txt
+  ub_duckdb_common_multi_file.cpp
+  duckdb_bind_expression.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\planner\binder\expression\duckdb_bind_expression.dir\Release\duckdb_bind_expression.lib
+  duckdb_common_arrow.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\arrow\duckdb_common_arrow.dir\Release\duckdb_common_arrow.lib
+  ub_duckdb_common_serializer.cpp
+  ub_duckdb_common_tree_renderer.cpp
+  ub_duckdb_common_operators.cpp
+  duckdb_common_enums.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\enums\duckdb_common_enums.dir\Release\duckdb_common_enums.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/types/column/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/types/row/CMakeLists.txt
+  duckdb_common_exception.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\exception\duckdb_common_exception.dir\Release\duckdb_common_exception.lib
+  duckdb_catalog.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\catalog\duckdb_catalog.dir\Release\duckdb_catalog.lib
+  ub_duckdb_common_types.cpp
+  duckdb_bind_query_node.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\planner\binder\query_node\duckdb_bind_query_node.dir\Release\duckdb_bind_query_node.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/util/CMakeLists.txt
+  duckdb_catalog_entries.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\catalog\catalog_entry\duckdb_catalog_entries.dir\Release\duckdb_catalog_entries.lib
+  ub_duckdb_common_types_column.cpp
+  ub_duckdb_common_types_row.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/types/variant/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/vector/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/parser/constraints/CMakeLists.txt
+  ub_duckdb_common_util.cpp
+  ub_duckdb_common_variant.cpp
+  duckdb_common_serializer.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\serializer\duckdb_common_serializer.dir\Release\duckdb_common_serializer.lib
+  duckdb_common_operators.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\operator\duckdb_common_operators.dir\Release\duckdb_common_operators.lib
+  duckdb_bind_statement.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\planner\binder\statement\duckdb_bind_statement.dir\Release\duckdb_bind_statement.lib
+  ub_duckdb_constraints.cpp
+  duckdb_aggr_distr.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\aggregate\distributive\duckdb_aggr_distr.dir\Release\duckdb_aggr_distr.lib
+  ub_duckdb_common_vector_types.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/csv_scanner/scanner/CMakeLists.txt
+  duckdb_common.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\duckdb_common.dir\Release\duckdb_common.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/csv_scanner/buffer_manager/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/csv_scanner/encode/CMakeLists.txt
+  duckdb_common_tree_renderer.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\tree_renderer\duckdb_common_tree_renderer.dir\Release\duckdb_common_tree_renderer.lib
+  duckdb_common_util.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\util\duckdb_common_util.dir\Release\duckdb_common_util.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/csv_scanner/state_machine/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/csv_scanner/sniffer/CMakeLists.txt
+  duckdb_constraints.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\parser\constraints\duckdb_constraints.dir\Release\duckdb_constraints.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/csv_scanner/util/CMakeLists.txt
+  ub_duckdb_csv_scanner.cpp
+  duckdb_common_variant.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\types\variant\duckdb_common_variant.dir\Release\duckdb_common_variant.lib
+  ub_duckdb_csv_buffer_manager.cpp
+  ub_duckdb_csv_encode.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/CMakeLists.txt
+  duckdb_common_http.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\main\http\duckdb_common_http.dir\Release\duckdb_common_http.lib
+  ub_duckdb_csv_state_machine.cpp
+  duckdb_common_multi_file.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\multi_file\duckdb_common_multi_file.dir\Release\duckdb_common_multi_file.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/index/art/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/parser/expression/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/planner/expression_binder/CMakeLists.txt
+  ub_duckdb_csv_sniffer.cpp
+  ub_duckdb_execution_index_art.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/index/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/storage/external_file_cache/CMakeLists.txt
+  ub_duckdb_expression.cpp
+  ub_duckdb_csv_util.cpp
+  ub_duckdb_external_file_cache.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/expression_executor/CMakeLists.txt
+  ub_duckdb_execution.cpp
+  ub_duckdb_expression_binders.cpp
+  ub_duckdb_execution_index.cpp
+  duckdb_common_types_row.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\types\row\duckdb_common_types_row.dir\Release\duckdb_common_types_row.lib
+  ub_duckdb_expression_executor.cpp
+  duckdb_common_types_column.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\types\column\duckdb_common_types_column.dir\Release\duckdb_common_types_column.lib
+  duckdb_common_vector_types.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\vector\duckdb_common_vector_types.dir\Release\duckdb_common_vector_types.lib
+  duckdb_csv_buffer_manager.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\csv_scanner\buffer_manager\duckdb_csv_buffer_manager.dir\Release\duckdb_csv_buffer_manager.lib
+  duckdb_csv_encode.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\csv_scanner\encode\duckdb_csv_encode.dir\Release\duckdb_csv_encode.lib
+  duckdb_csv_state_machine.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\csv_scanner\state_machine\duckdb_csv_state_machine.dir\Release\duckdb_csv_state_machine.lib
+  duckdb_expression.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\parser\expression\duckdb_expression.dir\Release\duckdb_expression.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/cast/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/aggregate/CMakeLists.txt
+  duckdb_external_file_cache.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\storage\external_file_cache\duckdb_external_file_cache.dir\Release\duckdb_external_file_cache.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/scalar/comparison/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/scalar/compressed_materialization/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/scalar/date/CMakeLists.txt
+  ub_duckdb_func_aggr.cpp
+  ub_duckdb_func_cast.cpp
+  duckdb_execution_index_art.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\index\art\duckdb_execution_index_art.dir\Release\duckdb_execution_index_art.lib
+  duckdb_common_types.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\types\duckdb_common_types.dir\Release\duckdb_common_types.lib
+  ub_duckdb_func_comparison.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/scalar/generic/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/scalar/list/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/scalar/geometry/CMakeLists.txt
+  duckdb_csv_sniffer.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\csv_scanner\sniffer\duckdb_csv_sniffer.dir\Release\duckdb_csv_sniffer.lib
+  ub_duckdb_func_date.cpp
+  ub_duckdb_func_compressed_materialization.cpp
+  duckdb_csv_scanner.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\csv_scanner\scanner\duckdb_csv_scanner.dir\Release\duckdb_csv_scanner.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/scalar/operator/CMakeLists.txt
+  ub_duckdb_func_generic_main.cpp
+  ub_duckdb_func_list_nested.cpp
+  duckdb_csv_util.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\csv_scanner\util\duckdb_csv_util.dir\Release\duckdb_csv_util.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/pragma/CMakeLists.txt
+  ub_duckdb_func_geometry.cpp
+  duckdb_execution_index.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\index\duckdb_execution_index.dir\Release\duckdb_execution_index.lib
+  ub_duckdb_func_ops_main.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/scalar/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/scalar/sequence/CMakeLists.txt
+  duckdb_execution.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\duckdb_execution.dir\Release\duckdb_execution.lib
+  duckdb_expression_binders.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\planner\expression_binder\duckdb_expression_binders.dir\Release\duckdb_expression_binders.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/scalar/string/CMakeLists.txt
+  ub_duckdb_func_pragma.cpp
+  duckdb_func_date.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\scalar\date\duckdb_func_date.dir\Release\duckdb_func_date.lib
+  ub_duckdb_func_scalar.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/scalar/string/regexp/CMakeLists.txt
+  ub_duckdb_func_seq.cpp
+  duckdb_func_geometry.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\scalar\geometry\duckdb_func_geometry.dir\Release\duckdb_func_geometry.lib
+  ub_duckdb_func_string_main.cpp
+  duckdb_func_generic_main.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\scalar\generic\duckdb_func_generic_main.dir\Release\duckdb_func_generic_main.lib
+  duckdb_func_compressed_materialization.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\scalar\compressed_materialization\duckdb_func_compressed_materialization.dir\Release\duckdb_func_compressed_materialization.lib
+  duckdb_func_aggr.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\aggregate\duckdb_func_aggr.dir\Release\duckdb_func_aggr.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/table/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/scalar/system/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/scalar/struct/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/table/version/CMakeLists.txt
+  ub_duckdb_func_string_regexp.cpp
+  duckdb_expression_executor.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\expression_executor\duckdb_expression_executor.dir\Release\duckdb_expression_executor.lib
+  ub_duckdb_func_system.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/scalar/variant/CMakeLists.txt
+  duckdb_func_list_nested.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\scalar\list\duckdb_func_list_nested.dir\Release\duckdb_func_list_nested.lib
+  ub_duckdb_func_table.cpp
+  duckdb_func_comparison.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\scalar\comparison\duckdb_func_comparison.dir\Release\duckdb_func_comparison.lib
+  ub_duckdb_func_table_version.cpp
+  ub_duckdb_func_struct_main.cpp
+  duckdb_func_seq.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\scalar\sequence\duckdb_func_seq.dir\Release\duckdb_func_seq.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/window/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/CMakeLists.txt
+  ub_duckdb_func_variant_main.cpp
+  ub_duckdb_func_window.cpp
+  duckdb_func_pragma.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\pragma\duckdb_func_pragma.dir\Release\duckdb_func_pragma.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/scalar/map/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/variant/CMakeLists.txt
+  ub_duckdb_function.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/logging/CMakeLists.txt
+  ub_duckdb_function_variant.cpp
+  ub_duckdb_logging.cpp
+  ub_duckdb_function_map.cpp
+  duckdb_func_scalar.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\scalar\duckdb_func_scalar.dir\Release\duckdb_func_scalar.lib
+  duckdb_func_string_regexp.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\scalar\string\regexp\duckdb_func_string_regexp.dir\Release\duckdb_func_string_regexp.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/main/CMakeLists.txt
+  duckdb_function_variant.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\variant\duckdb_function_variant.dir\Release\duckdb_function_variant.lib
+  ub_duckdb_main.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/main/buffered_data/CMakeLists.txt
+  duckdb_function_map.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\scalar\map\duckdb_function_map.dir\Release\duckdb_function_map.lib
+  duckdb_func_table_version.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\table\version\duckdb_func_table_version.dir\Release\duckdb_func_table_version.lib
+  ub_duckdb_main_buffered_data.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/main/capi/cast/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/main/capi/CMakeLists.txt
+  duckdb_func_string_main.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\scalar\string\duckdb_func_string_main.dir\Release\duckdb_func_string_main.lib
+  duckdb_func_variant_main.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\scalar\variant\duckdb_func_variant_main.dir\Release\duckdb_func_variant_main.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/main/chunk_scan_state/CMakeLists.txt
+  ub_duckdb_main_capi_cast.cpp
+  ub_duckdb_main_capi.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/main/extension/CMakeLists.txt
+  duckdb_func_ops_main.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\scalar\operator\duckdb_func_ops_main.dir\Release\duckdb_func_ops_main.lib
+  duckdb_func_struct_main.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\scalar\struct\duckdb_func_struct_main.dir\Release\duckdb_func_struct_main.lib
+  ub_duckdb_main_chunk_scan_state.cpp
+  duckdb_func_window.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\window\duckdb_func_window.dir\Release\duckdb_func_window.lib
+  duckdb_logging.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\logging\duckdb_logging.dir\Release\duckdb_logging.lib
+  duckdb_func_system.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\scalar\system\duckdb_func_system.dir\Release\duckdb_func_system.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/main/relation/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/main/profiler/CMakeLists.txt
+  extension_alias.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/main/settings/CMakeLists.txt
+  duckdb_main_chunk_scan_state.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\main\chunk_scan_state\duckdb_main_chunk_scan_state.dir\Release\duckdb_main_chunk_scan_state.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/main/secret/CMakeLists.txt
+  duckdb_main_buffered_data.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\main\buffered_data\duckdb_main_buffered_data.dir\Release\duckdb_main_buffered_data.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/nested_loop_join/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/aggregate/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/csv_scanner/table_function/CMakeLists.txt
+  ub_duckdb_main_settings.cpp
+  ub_duckdb_main_profiler.cpp
+  ub_duckdb_main_relation.cpp
+  ub_duckdb_operator_aggregate.cpp
+  duckdb_main_capi_cast.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\main\capi\cast\duckdb_main_capi_cast.dir\Release\duckdb_main_capi_cast.lib
+  ub_duckdb_main_secret.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/helper/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/filter/CMakeLists.txt
+  duckdb_function.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\duckdb_function.dir\Release\duckdb_function.lib
+  ub_duckdb_nested_loop_join.cpp
+  ub_duckdb_operator_csv_table_function.cpp
+  duckdb_func_cast.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\cast\duckdb_func_cast.dir\Release\duckdb_func_cast.lib
+  ub_duckdb_operator_helper.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/join/CMakeLists.txt
+  ub_duckdb_operator_join.cpp
+  ub_duckdb_operator_filter.cpp
+  extension_helper.cpp
+  duckdb_nested_loop_join.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\nested_loop_join\duckdb_nested_loop_join.dir\Release\duckdb_nested_loop_join.lib
+  duckdb_main_profiler.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\main\profiler\duckdb_main_profiler.dir\Release\duckdb_main_profiler.lib
+  duckdb_func_table.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\table\duckdb_func_table.dir\Release\duckdb_func_table.lib
+  duckdb_main_capi.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\main\capi\duckdb_main_capi.dir\Release\duckdb_main_capi.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/persistent/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/order/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/projection/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/scan/CMakeLists.txt
+  duckdb_operator_filter.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\filter\duckdb_operator_filter.dir\Release\duckdb_operator_filter.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/schema/CMakeLists.txt
+  ub_duckdb_operator_persistent.cpp
+  ub_duckdb_operator_order.cpp
+  ub_duckdb_operator_scan.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/operator/set/CMakeLists.txt
+  ub_duckdb_operator_schema.cpp
+  ub_duckdb_operator_projection.cpp
+  ub_duckdb_operator_set.cpp
+  duckdb_main_settings.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\main\settings\duckdb_main_settings.dir\Release\duckdb_main_settings.lib
+  extension_install.cpp
+  duckdb_operator_order.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\order\duckdb_operator_order.dir\Release\duckdb_operator_order.lib
+  duckdb_operator_projection.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\projection\duckdb_operator_projection.dir\Release\duckdb_operator_projection.lib
+  duckdb_main_secret.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\main\secret\duckdb_main_secret.dir\Release\duckdb_main_secret.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/optimizer/compressed_materialization/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/optimizer/matcher/CMakeLists.txt
+  duckdb_main_relation.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\main\relation\duckdb_main_relation.dir\Release\duckdb_main_relation.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/optimizer/join_order/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/optimizer/pushdown/CMakeLists.txt
+  duckdb_operator_csv_table_function.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\csv_scanner\table_function\duckdb_operator_csv_table_function.dir\Release\duckdb_operator_csv_table_function.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/optimizer/pullup/CMakeLists.txt
+  ub_duckdb_optimizer_compressed_materialization.cpp
+  duckdb_operator_aggregate.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\aggregate\duckdb_operator_aggregate.dir\Release\duckdb_operator_aggregate.lib
+  ub_duckdb_optimizer_matcher.cpp
+  ub_duckdb_optimizer_pushdown.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/optimizer/CMakeLists.txt
+  duckdb_operator_helper.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\helper\duckdb_operator_helper.dir\Release\duckdb_operator_helper.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/optimizer/relation_statistics/CMakeLists.txt
+  ub_duckdb_optimizer_join_order.cpp
+  ub_duckdb_optimizer_pullup.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/optimizer/rule/CMakeLists.txt
+  duckdb_operator_set.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\set\duckdb_operator_set.dir\Release\duckdb_operator_set.lib
+  ub_duckdb_optimizer_rules.cpp
+  ub_duckdb_optimizer_relation_statistics.cpp
+  duckdb_operator_join.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\join\duckdb_operator_join.dir\Release\duckdb_operator_join.lib
+  ub_duckdb_optimizer.cpp
+  duckdb_operator_scan.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\scan\duckdb_operator_scan.dir\Release\duckdb_operator_scan.lib
+  duckdb_operator_schema.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\schema\duckdb_operator_schema.dir\Release\duckdb_operator_schema.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/optimizer/statistics/operator/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/optimizer/statistics/expression/CMakeLists.txt
+  duckdb_optimizer_pullup.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\optimizer\pullup\duckdb_optimizer_pullup.dir\Release\duckdb_optimizer_pullup.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/parallel/CMakeLists.txt
+  duckdb_optimizer_matcher.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\optimizer\matcher\duckdb_optimizer_matcher.dir\Release\duckdb_optimizer_matcher.lib
+  extension_load.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/parser/parsed_data/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/parser/CMakeLists.txt
+  duckdb_optimizer_compressed_materialization.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\optimizer\compressed_materialization\duckdb_optimizer_compressed_materialization.dir\Release\duckdb_optimizer_compressed_materialization.lib
+  ub_duckdb_optimizer_statistics_op.cpp
+  ub_duckdb_optimizer_statistics_expr.cpp
+  ub_duckdb_parallel.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/parser/peg/CMakeLists.txt
+  duckdb_optimizer_pushdown.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\optimizer\pushdown\duckdb_optimizer_pushdown.dir\Release\duckdb_optimizer_pushdown.lib
+  ub_duckdb_parsed_data.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/parser/peg/tokenizer/CMakeLists.txt
+  ub_duckdb_parser.cpp
+  duckdb_optimizer_rules.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\optimizer\rule\duckdb_optimizer_rules.dir\Release\duckdb_optimizer_rules.lib
+  ub_duckdb_parser_peg_tokenizer.cpp
+  ub_duckdb_parser_peg.cpp
+  duckdb_optimizer_statistics_expr.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\optimizer\statistics\expression\duckdb_optimizer_statistics_expr.dir\Release\duckdb_optimizer_statistics_expr.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/parser/peg/transformer/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/parser/tableref/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/physical_plan/CMakeLists.txt
+  duckdb_optimizer_relation_statistics.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\optimizer\relation_statistics\duckdb_optimizer_relation_statistics.dir\Release\duckdb_optimizer_relation_statistics.lib
+  ub_duckdb_parser_peg_transformer.cpp
+  duckdb_optimizer_join_order.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\optimizer\join_order\duckdb_optimizer_join_order.dir\Release\duckdb_optimizer_join_order.lib
+  extension_loader.cpp
+  ub_duckdb_physical_plan.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/planner/CMakeLists.txt
+  duckdb_operator_persistent.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\operator\persistent\duckdb_operator_persistent.dir\Release\duckdb_operator_persistent.lib
+  duckdb_parser_peg_tokenizer.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\parser\peg\tokenizer\duckdb_parser_peg_tokenizer.dir\Release\duckdb_parser_peg_tokenizer.lib
+  duckdb_optimizer_statistics_op.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\optimizer\statistics\operator\duckdb_optimizer_statistics_op.dir\Release\duckdb_optimizer_statistics_op.lib
+  ub_duckdb_parser_tableref.cpp
+  ub_duckdb_planner.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/planner/expression/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/planner/operator/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/planner/filter/CMakeLists.txt
+  ub_duckdb_planner_expression.cpp
+  ub_duckdb_planner_operator.cpp
+  ub_duckdb_planner_filter.cpp
+  duckdb_parser.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\parser\duckdb_parser.dir\Release\duckdb_parser.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/planner/subquery/CMakeLists.txt
+  ub_duckdb_planner_subquery.cpp
+  duckdb_parsed_data.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\parser\parsed_data\duckdb_parsed_data.dir\Release\duckdb_parsed_data.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/progress_bar/CMakeLists.txt
+  ub_duckdb_progress_bar.cpp
+  duckdb_planner_expression.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\planner\expression\duckdb_planner_expression.dir\Release\duckdb_planner_expression.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/parser/query_node/CMakeLists.txt
+  ub_duckdb_query_node.cpp
+  duckdb_parser_peg.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\parser\peg\duckdb_parser_peg.dir\Release\duckdb_parser_peg.lib
+  duckdb_parser_tableref.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\parser\tableref\duckdb_parser_tableref.dir\Release\duckdb_parser_tableref.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/execution/sample/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/row_operations/CMakeLists.txt
+  ub_duckdb_sample.cpp
+  ub_duckdb_row_operations.cpp
+  duckdb_planner_filter.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\planner\filter\duckdb_planner_filter.dir\Release\duckdb_planner_filter.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/sort/CMakeLists.txt
+  ub_duckdb_sort.cpp
+  duckdb_progress_bar.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\progress_bar\duckdb_progress_bar.dir\Release\duckdb_progress_bar.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/parser/statement/CMakeLists.txt
+  ub_duckdb_statement.cpp
+  duckdb_query_node.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\parser\query_node\duckdb_query_node.dir\Release\duckdb_query_node.lib
+  duckdb_sample.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\sample\duckdb_sample.dir\Release\duckdb_sample.lib
+  Generating Code...
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/storage/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/storage/buffer/CMakeLists.txt
+  ub_duckdb_storage.cpp
+  duckdb_planner_operator.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\planner\operator\duckdb_planner_operator.dir\Release\duckdb_planner_operator.lib
+  ub_duckdb_storage_buffer.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/storage/checkpoint/CMakeLists.txt
+  ub_duckdb_storage_checkpoint.cpp
+  duckdb_parallel.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\parallel\duckdb_parallel.dir\Release\duckdb_parallel.lib
+  duckdb_main.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\main\duckdb_main.dir\Release\duckdb_main.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/storage/compression/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/storage/compression/alp/CMakeLists.txt
+  ub_duckdb_storage_compression.cpp
+  ub_duckdb_storage_compression_alp.cpp
+  duckdb_storage_buffer.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\storage\buffer\duckdb_storage_buffer.dir\Release\duckdb_storage_buffer.lib
+  duckdb_main_extension.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\main\extension\duckdb_main_extension.dir\Release\duckdb_main_extension.lib
+  duckdb_statement.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\parser\statement\duckdb_statement.dir\Release\duckdb_statement.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/storage/compression/dict_fsst/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/storage/compression/chimp/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/storage/compression/dictionary/CMakeLists.txt
+C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\algorithm(7791,39): warning C4018: '<=': signed/unsigned mismatch [C:\Work\GH\repos\duckdb-documentdb\build\src\common\sort\duckdb_sort.vcxproj]
+  (compiling source file 'ub_duckdb_sort.cpp')
+      C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\algorithm(7791,39):
+      the template instantiation context (the oldest one first) is
+          C:\Work\GH\repos\duckdb-documentdb\duckdb\src\common\sort\sorted_run.cpp(264,3):
+          see reference to function template instantiation 'void duckdb::TemplatedSort<duckdb::SortKeyType::NO_PAYLOAD_FIXED_8>(duckdb::ClientContext &,duckdb::TupleDataCollection &,const bool)' being compiled
+          C:\Work\GH\repos\duckdb-documentdb\duckdb\src\common\sort\sorted_run.cpp(253,20):
+          see reference to function template instantiation 'void duckdb_vergesort::vergesort<duckdb::TemplatedSort::BLOCK_ITERATOR,std::less<duckdb::TemplatedSort::SORT_KEY>,duckdb::TemplatedSort::<lambda_5ff2363b436dfdfff908cc12285c3f75>>(BidirectionalIterator,BidirectionalIterator,Compare,Fallback)' being compiled
+          with
+          [
+              BidirectionalIterator=duckdb::TemplatedSort::BLOCK_ITERATOR,
+              Compare=std::less<duckdb::TemplatedSort::SORT_KEY>,
+              Fallback=duckdb::TemplatedSort::<lambda_5ff2363b436dfdfff908cc12285c3f75>
+          ]
+          C:\Work\GH\repos\duckdb-documentdb\duckdb\third_party\vergesort\vergesort.h(339,17):
+          see reference to function template instantiation 'void duckdb_vergesort::detail::vergesort<BidirectionalIterator,Compare,Fallback>(RandomAccessIterator,RandomAccessIterator,Compare,std::random_access_iterator_tag,Fallback)' being compiled
+          with
+          [
+              BidirectionalIterator=duckdb::TemplatedSort::BLOCK_ITERATOR,
+              Compare=std::less<duckdb::TemplatedSort::SORT_KEY>,
+              Fallback=duckdb::TemplatedSort::<lambda_5ff2363b436dfdfff908cc12285c3f75>,
+              RandomAccessIterator=duckdb::TemplatedSort::BLOCK_ITERATOR
+          ]
+          C:\Work\GH\repos\duckdb-documentdb\duckdb\third_party\vergesort\vergesort.h(324,26):
+          see reference to function template instantiation 'void std::inplace_merge<RandomAccessIterator,Compare>(_BidIt,_BidIt,_BidIt,_Pr)' being compiled
+          with
+          [
+              RandomAccessIterator=duckdb::TemplatedSort::BLOCK_ITERATOR,
+              Compare=std::less<duckdb::TemplatedSort::SORT_KEY>,
+              _BidIt=duckdb::TemplatedSort::BLOCK_ITERATOR,
+              _Pr=std::less<duckdb::TemplatedSort::SORT_KEY>
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\algorithm(7892,10):
+          see reference to function template instantiation 'void std::_Buffered_inplace_merge_unchecked_impl<_BidIt,_Fn>(_BidIt,_BidIt,_BidIt,unsigned __int64,unsigned __int64,duckdb::SortKey<duckdb::SortKeyType::NO_PAYLOAD_FIXED_8> *const ,const ptrdiff_t,_Pr)' being compiled
+          with
+          [
+              _BidIt=duckdb::TemplatedSort::BLOCK_ITERATOR,
+              _Fn=std::less<duckdb::TemplatedSort::SORT_KEY>,
+              _Pr=std::less<duckdb::TemplatedSort::SORT_KEY>
+          ]
+  
+C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\algorithm(7793,24): warning C4018: '<=': signed/unsigned mismatch [C:\Work\GH\repos\duckdb-documentdb\build\src\common\sort\duckdb_sort.vcxproj]
+  (compiling source file 'ub_duckdb_sort.cpp')
+  
+  ub_duckdb_storage_compression_dict_fsst.cpp
+  ub_duckdb_storage_compression_chimp.cpp
+  ub_duckdb_storage_compression_dictionary.cpp
+  duckdb_physical_plan.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\execution\physical_plan\duckdb_physical_plan.dir\Release\duckdb_physical_plan.lib
+C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\algorithm(6425,39): warning C4018: '<=': signed/unsigned mismatch [C:\Work\GH\repos\duckdb-documentdb\build\src\common\sort\duckdb_sort.vcxproj]
+  (compiling source file 'ub_duckdb_sort.cpp')
+      C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\algorithm(6425,39):
+      the template instantiation context (the oldest one first) is
+          C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\algorithm(7892,10):
+          see reference to function template instantiation 'void std::_Buffered_inplace_merge_unchecked_impl<_BidIt,_Fn>(_BidIt,_BidIt,_BidIt,unsigned __int64,unsigned __int64,duckdb::SortKey<duckdb::SortKeyType::NO_PAYLOAD_FIXED_8> *const ,const ptrdiff_t,_Pr)' being compiled
+          with
+          [
+              _BidIt=duckdb::TemplatedSort::BLOCK_ITERATOR,
+              _Fn=std::less<duckdb::TemplatedSort::SORT_KEY>,
+              _Pr=std::less<duckdb::TemplatedSort::SORT_KEY>
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\algorithm(7796,14):
+          see reference to function template instantiation 'void std::_Buffered_inplace_merge_divide_and_conquer<_BidIt,_Pr>(_BidIt,_BidIt,_BidIt,unsigned __int64,unsigned __int64,duckdb::SortKey<duckdb::SortKeyType::NO_PAYLOAD_FIXED_8> *const ,const ptrdiff_t,_Pr)' being compiled
+          with
+          [
+              _BidIt=duckdb::TemplatedSort::BLOCK_ITERATOR,
+              _Pr=std::less<duckdb::TemplatedSort::SORT_KEY>
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\algorithm(7775,14):
+          see reference to function template instantiation 'void std::_Buffered_inplace_merge_divide_and_conquer2<_BidIt,_Pr>(_BidIt,_BidIt,_BidIt,unsigned __int64,unsigned __int64,duckdb::SortKey<duckdb::SortKeyType::NO_PAYLOAD_FIXED_8> *const ,const ptrdiff_t,_Pr,_BidIt,_BidIt,unsigned __int64,unsigned __int64)' being compiled
+          with
+          [
+              _BidIt=duckdb::TemplatedSort::BLOCK_ITERATOR,
+              _Pr=std::less<duckdb::TemplatedSort::SORT_KEY>
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\algorithm(7757,25):
+          see reference to function template instantiation '_BidIt std::_Buffered_rotate_unchecked<_BidIt>(const _BidIt,const _BidIt,const _BidIt,const unsigned __int64,const unsigned __int64,duckdb::SortKey<duckdb::SortKeyType::NO_PAYLOAD_FIXED_8> *const ,const ptrdiff_t)' being compiled
+          with
+          [
+              _BidIt=duckdb::TemplatedSort::BLOCK_ITERATOR
+          ]
+  
+C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include\algorithm(6433,17): warning C4018: '<=': signed/unsigned mismatch [C:\Work\GH\repos\duckdb-documentdb\build\src\common\sort\duckdb_sort.vcxproj]
+  (compiling source file 'ub_duckdb_sort.cpp')
+  
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/storage/compression/roaring/CMakeLists.txt
+  ub_duckdb_storage_compression_roaring.cpp
+  duckdb_planner_subquery.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\planner\subquery\duckdb_planner_subquery.dir\Release\duckdb_planner_subquery.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/storage/metadata/CMakeLists.txt
+  duckdb_storage_compression_chimp.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\storage\compression\chimp\duckdb_storage_compression_chimp.dir\Release\duckdb_storage_compression_chimp.lib
+C:\Work\GH\repos\duckdb-documentdb\duckdb\src\include\duckdb\storage\compression\roaring\roaring.hpp(667,62): warning C4805: '&': unsafe mix of type 'bool' and type 'int' in operation [C:\Work\GH\repos\duckdb-documentdb\build\src\storage\compression\roaring\duckdb_storage_compression_roaring.vcxproj]
+  (compiling source file 'ub_duckdb_storage_compression_roaring.cpp')
+      C:\Work\GH\repos\duckdb-documentdb\duckdb\src\include\duckdb\storage\compression\roaring\roaring.hpp(667,62):
+      the template instantiation context (the oldest one first) is
+          C:\Work\GH\repos\duckdb-documentdb\duckdb\src\storage\compression\roaring\analyze.cpp(180,3):
+          see reference to function template instantiation 'void duckdb::roaring::BitPackBooleans<false,true>(duckdb::data_ptr_t,const bool *,const duckdb::idx_t,const duckdb::ValidityMask *,duckdb::StatsWriter<bool> *)' being compiled
+  
+C:\Work\GH\repos\duckdb-documentdb\duckdb\src\include\duckdb\common\limits.hpp(27,49): warning C4804: '-': unsafe use of type 'bool' in operation [C:\Work\GH\repos\duckdb-documentdb\build\src\storage\compression\roaring\duckdb_storage_compression_roaring.vcxproj]
+  (compiling source file 'ub_duckdb_storage_compression_roaring.cpp')
+      C:\Work\GH\repos\duckdb-documentdb\duckdb\src\include\duckdb\common\limits.hpp(27,49):
+      the template instantiation context (the oldest one first) is
+          C:\Work\GH\repos\duckdb-documentdb\duckdb\src\include\duckdb\storage\compression\roaring\roaring.hpp(379,20):
+          see reference to class template instantiation 'duckdb::StatsWriter<bool>' being compiled
+          C:\Work\GH\repos\duckdb-documentdb\duckdb\src\include\duckdb\storage\statistics\stats_writer.hpp(62,14):
+          while compiling class template member function 'void duckdb::StatsWriter<bool>::Clear(void)'
+              C:\Work\GH\repos\duckdb-documentdb\duckdb\src\include\duckdb\storage\compression\standard_compression_state.hpp(32,21):
+              see the first reference to 'duckdb::StatsWriter<bool>::Clear' in 'duckdb::StandardCompressionState::FlushCurrentSegment'
+          C:\Work\GH\repos\duckdb-documentdb\duckdb\src\include\duckdb\storage\statistics\stats_writer.hpp(64,27):
+          see reference to class template instantiation 'duckdb::NumericLimits<T>' being compiled
+          with
+          [
+              T=bool
+          ]
+          C:\Work\GH\repos\duckdb-documentdb\duckdb\src\include\duckdb\common\limits.hpp(26,21):
+          while compiling class template member function 'T duckdb::NumericLimits<T>::Minimum(void)'
+          with
+          [
+              T=bool
+          ]
+              C:\Work\GH\repos\duckdb-documentdb\duckdb\src\include\duckdb\storage\statistics\stats_writer.hpp(65,7):
+              see the first reference to 'duckdb::NumericLimits<T>::Minimum' in 'duckdb::StatsWriter<bool>::Clear'
+          with
+          [
+              T=bool
+          ]
+              C:\Work\GH\repos\duckdb-documentdb\duckdb\src\include\duckdb\storage\compression\standard_compression_state.hpp(32,21):
+              see the first reference to 'duckdb::StatsWriter<bool>::Clear' in 'duckdb::StandardCompressionState::FlushCurrentSegment'
+  
+  ub_duckdb_storage_metadata.cpp
+  duckdb_storage_compression_dictionary.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\storage\compression\dictionary\duckdb_storage_compression_dictionary.dir\Release\duckdb_storage_compression_dictionary.lib
+  duckdb_storage_compression_dict_fsst.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\storage\compression\dict_fsst\duckdb_storage_compression_dict_fsst.dir\Release\duckdb_storage_compression_dict_fsst.lib
+  duckdb_storage_checkpoint.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\storage\checkpoint\duckdb_storage_checkpoint.dir\Release\duckdb_storage_checkpoint.lib
+  duckdb_row_operations.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\row_operations\duckdb_row_operations.dir\Release\duckdb_row_operations.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/storage/serialization/CMakeLists.txt
+  duckdb_storage_compression_alp.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\storage\compression\alp\duckdb_storage_compression_alp.dir\Release\duckdb_storage_compression_alp.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/storage/statistics/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/transaction/CMakeLists.txt
+  duckdb_storage_compression_roaring.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\storage\compression\roaring\duckdb_storage_compression_roaring.dir\Release\duckdb_storage_compression_roaring.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/storage/table/variant/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/storage/table/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/table/system/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/cast/union/CMakeLists.txt
+  ub_duckdb_transaction.cpp
+  ub_duckdb_storage_serialization.cpp
+  ub_duckdb_storage_statistics.cpp
+  duckdb_storage_metadata.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\storage\metadata\duckdb_storage_metadata.dir\Release\duckdb_storage_metadata.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/value_operations/CMakeLists.txt
+  ub_duckdb_storage_table_variant.cpp
+  ub_duckdb_storage_table.cpp
+  ub_duckdb_table_func_system.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/function/cast/variant/CMakeLists.txt
+  ub_duckdb_union_cast.cpp
+  duckdb_planner.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\planner\duckdb_planner.dir\Release\duckdb_planner.lib
+  duckdb_storage_compression.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\storage\compression\duckdb_storage_compression.dir\Release\duckdb_storage_compression.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/common/vector_operations/CMakeLists.txt
+  duckdb_optimizer.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\optimizer\duckdb_optimizer.dir\Release\duckdb_optimizer.lib
+  ub_duckdb_value_operations.cpp
+  ub_duckdb_variant_cast.cpp
+  duckdb_union_cast.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\cast\union\duckdb_union_cast.dir\Release\duckdb_union_cast.lib
+  boolean_operators.cpp
+  duckdb_storage.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\storage\duckdb_storage.dir\Release\duckdb_storage.lib
+  duckdb_storage_table_variant.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\storage\table\variant\duckdb_storage_table_variant.dir\Release\duckdb_storage_table_variant.lib
+  duckdb_transaction.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\transaction\duckdb_transaction.dir\Release\duckdb_transaction.lib
+  duckdb_storage_statistics.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\storage\statistics\duckdb_storage_statistics.dir\Release\duckdb_storage_statistics.lib
+  duckdb_value_operations.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\value_operations\duckdb_value_operations.dir\Release\duckdb_value_operations.lib
+  vector_cast.cpp
+  comparison_operators.cpp
+  duckdb_sort.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\sort\duckdb_sort.dir\Release\duckdb_sort.lib
+  duckdb_variant_cast.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\cast\variant\duckdb_variant_cast.dir\Release\duckdb_variant_cast.lib
+  vector_copy.cpp
+  generators.cpp
+  vector_hash.cpp
+  vector_storage.cpp
+  null_operations.cpp
+  duckdb_storage_serialization.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\storage\serialization\duckdb_storage_serialization.dir\Release\duckdb_storage_serialization.lib
+  duckdb_storage_table.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\storage\table\duckdb_storage_table.dir\Release\duckdb_storage_table.lib
+  numeric_inplace_operators.cpp
+  duckdb_table_func_system.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\function\table\system\duckdb_table_func_system.dir\Release\duckdb_table_func_system.lib
+  is_distinct_from.cpp
+  Generating Code...
+  duckdb_parser_peg_transformer.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\parser\peg\transformer\duckdb_parser_peg_transformer.dir\Release\duckdb_parser_peg_transformer.lib
+  duckdb_vector_operations.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\common\vector_operations\duckdb_vector_operations.dir\Release\duckdb_vector_operations.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/third_party/fsst/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/third_party/miniz/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/third_party/skiplist/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/third_party/hyperloglog/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/third_party/mbedtls/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/aggregate/algebraic/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/third_party/fmt/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/third_party/re2/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/scalar/array/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/third_party/fastpforlib/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/third_party/utf8proc/CMakeLists.txt
+  miniz.cpp
+  libfsst.cpp
+  ub_duckdb_core_functions_algebraic.cpp
+  generated_extension_loader.cpp
+  mbedtls_wrapper.cpp
+  SkipList.cpp
+  bitpacking.cpp
+  format.cc
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/third_party/zstd/CMakeLists.txt
+  bitmap256.cc
+  hyperloglog.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/third_party/yyjson/CMakeLists.txt
+  utf8proc.cpp
+  ub_duckdb_core_functions_array.cpp
+  utf8proc_wrapper.cpp
+  compile.cc
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/scalar/bit/CMakeLists.txt
+  sds.cpp
+  Generating Code...
+  duckdb_skiplistlib.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\third_party\skiplist\Release\duckdb_skiplistlib.lib
+  bitstate.cc
+  zstd_compress_superblock.cpp
+  yyjson.cpp
+  zstdmt_compress.cpp
+  duckdb_fsst.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\third_party\fsst\Release\duckdb_fsst.lib
+  Generating Code...
+  aes.cpp
+  zstd_double_fast.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/scalar/blob/CMakeLists.txt
+  asn1parse.cpp
+  zstd_fast.cpp
+  asn1write.cpp
+  dfa.cc
+  duckdb_hyperloglog.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\third_party\hyperloglog\Release\duckdb_hyperloglog.lib
+  base64.cpp
+  zstd_compress_sequences.cpp
+  bignum.cpp
+  ub_duckdb_core_functions_bit.cpp
+  bignum_core.cpp
+  zstd_ldm.cpp
+  cipher.cpp
+  duckdb_miniz.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\third_party\miniz\Release\duckdb_miniz.lib
+  hist.cpp
+  cipher_wrap.cpp
+  constant_time.cpp
+  zstd_compress.cpp
+  gcm.cpp
+  md.cpp
+  oid.cpp
+  zstd_lazy.cpp
+  pem.cpp
+  pk.cpp
+  zstd_compress_literals.cpp
+  pk_wrap.cpp
+  pkparse.cpp
+  duckdb_utf8proc.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\third_party\utf8proc\Release\duckdb_utf8proc.lib
+  huf_compress.cpp
+  platform.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/scalar/date/CMakeLists.txt
+  zstd_opt.cpp
+  platform_util.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/aggregate/distributive/CMakeLists.txt
+  fse_compress.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/scalar/enum/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/scalar/debug/CMakeLists.txt
+  filtered_re2.cc
+  zstd_ddict.cpp
+  ub_duckdb_core_functions_blob.cpp
+  huf_decompress.cpp
+  rsa.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/scalar/generic/CMakeLists.txt
+  Generating Code...
+  zstd_decompress.cpp
+  duckdb_core_functions_array.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\array\duckdb_core_functions_array.dir\Release\duckdb_core_functions_array.lib
+  zstd_decompress_block.cpp
+  entropy_common.cpp
+  fse_decompress.cpp
+  debug.cpp
+  Generating Code...
+  duckdb_fmt.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\third_party\fmt\Release\duckdb_fmt.lib
+  mimics_pcre.cc
+  ub_duckdb_core_functions_distributive.cpp
+  duckdb_core_functions_algebraic.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\aggregate\algebraic\duckdb_core_functions_algebraic.dir\Release\duckdb_core_functions_algebraic.lib
+  ub_duckdb_core_functions_enum.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/aggregate/holistic/CMakeLists.txt
+  ub_duckdb_core_functions_generic.cpp
+  duckdb_core_functions_bit.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\bit\duckdb_core_functions_bit.dir\Release\duckdb_core_functions_bit.lib
+  Compiling...
+  rsa_alt_helpers.cpp
+  sha1.cpp
+  ub_duckdb_core_functions_debug.cpp
+  sha256.cpp
+  nfa.cc
+  ub_duckdb_core_functions_date.cpp
+  Generating Code...
+C:\Work\GH\repos\duckdb-documentdb\build\codegen\src\generated_extension_loader.cpp(10,32): error C2065: 'DocumentdbExtension': undeclared identifier [C:\Work\GH\repos\duckdb-documentdb\build\extension\duckdb_generated_extension_loader.vcxproj]
+C:\Work\GH\repos\duckdb-documentdb\build\codegen\src\generated_extension_loader.cpp(10,12): error C2672: 'duckdb::DuckDB::LoadStaticExtension': no matching overloaded function found [C:\Work\GH\repos\duckdb-documentdb\build\extension\duckdb_generated_extension_loader.vcxproj]
+      C:\Work\GH\repos\duckdb-documentdb\duckdb\src\include\duckdb\main\database.hpp(135,7):
+      could be 'void duckdb::DuckDB::LoadStaticExtension(void)'
+          C:\Work\GH\repos\duckdb-documentdb\build\codegen\src\generated_extension_loader.cpp(10,32):
+          'duckdb::DuckDB::LoadStaticExtension': invalid template argument for 'T', type expected
+  
+  duckdb_core_functions_blob.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\blob\duckdb_core_functions_blob.dir\Release\duckdb_core_functions_blob.lib
+  ub_duckdb_core_functions_holistic.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/scalar/list/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/scalar/map/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/scalar/math/CMakeLists.txt
+  onepass.cc
+  duckdb_mbedtls.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\third_party\mbedtls\Release\duckdb_mbedtls.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/aggregate/nested/CMakeLists.txt
+  ub_duckdb_core_functions_math.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/scalar/operators/CMakeLists.txt
+  parse.cc
+  ub_duckdb_core_functions_map.cpp
+  ub_duckdb_core_functions_nested.cpp
+  ub_duckdb_core_functions_list.cpp
+  perl_groups.cc
+  prefilter.cc
+  ub_duckdb_core_functions_operators.cpp
+  duckdb_core_functions_enum.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\enum\duckdb_core_functions_enum.dir\Release\duckdb_core_functions_enum.lib
+  duckdb_fastpforlib.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\third_party\fastpforlib\Release\duckdb_fastpforlib.lib
+  prefilter_tree.cc
+  duckdb_core_functions_debug.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\debug\duckdb_core_functions_debug.dir\Release\duckdb_core_functions_debug.lib
+  prog.cc
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/scalar/random/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/aggregate/regression/CMakeLists.txt
+  re2.cc
+  duckdb_core_functions_generic.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\generic\duckdb_core_functions_generic.dir\Release\duckdb_core_functions_generic.lib
+  duckdb_core_functions_map.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\map\duckdb_core_functions_map.dir\Release\duckdb_core_functions_map.lib
+  ub_duckdb_core_functions_random.cpp
+  Compiling...
+  xxhash.cpp
+  regexp.cc
+  pool.cpp
+  threading.cpp
+  zstd_common.cpp
+  error_private.cpp
+  cover.cpp
+  divsufsort.cpp
+  fastcover.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/scalar/struct/CMakeLists.txt
+  zdict.cpp
+  zbuff_common.cpp
+  zbuff_decompress.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/scalar/string/CMakeLists.txt
+  zbuff_compress.cpp
+  ub_duckdb_core_functions_regression.cpp
+  Generating Code...
+  duckdb_core_functions_operators.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\operators\duckdb_core_functions_operators.dir\Release\duckdb_core_functions_operators.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/scalar/union/CMakeLists.txt
+  ub_duckdb_core_functions_struct.cpp
+  ub_duckdb_core_functions_string.cpp
+  ub_duckdb_core_functions_union.cpp
+  set.cc
+  duckdb_core_functions_list.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\list\duckdb_core_functions_list.dir\Release\duckdb_core_functions_list.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/parquet/decoder/CMakeLists.txt
+  duckdb_zstd.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\third_party\zstd\Release\duckdb_zstd.lib
+  duckdb_core_functions_random.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\random\duckdb_core_functions_random.dir\Release\duckdb_core_functions_random.lib
+  ub_duckdb_parquet_decoders.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/parquet/reader/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/parquet/reader/variant/CMakeLists.txt
+  ub_duckdb_parquet_readers.cpp
+  ub_duckdb_parquet_reader_variant.cpp
+  duckdb_core_functions_regression.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\aggregate\regression\duckdb_core_functions_regression.dir\Release\duckdb_core_functions_regression.lib
+  duckdb_core_functions_struct.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\struct\duckdb_core_functions_struct.dir\Release\duckdb_core_functions_struct.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/parquet/writer/variant/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/parquet/writer/CMakeLists.txt
+  ub_duckdb_parquet_writer_variant.cpp
+  ub_duckdb_parquet_writers.cpp
+  simplify.cc
+  duckdb_core_functions_union.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\union\duckdb_core_functions_union.dir\Release\duckdb_core_functions_union.lib
+  duckdb_core_functions_math.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\math\duckdb_core_functions_math.dir\Release\duckdb_core_functions_math.lib
+  stringpiece.cc
+C:\Work\GH\repos\duckdb-documentdb\duckdb\extension\core_functions\scalar\date\date_part.cpp(2014,1): warning C4715: 'duckdb::`anonymous namespace'::DatePartUnaryStatistics': not all control paths return a value [C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\date\duckdb_core_functions_date.vcxproj]
+  tostring.cc
+  duckdb_parquet_decoders.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\parquet\decoder\duckdb_parquet_decoders.dir\Release\duckdb_parquet_decoders.lib
+  duckdb_parquet_readers.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\parquet\reader\duckdb_parquet_readers.dir\Release\duckdb_parquet_readers.lib
+  unicode_casefold.cc
+  Generating Code...
+  duckdb_core_functions_distributive.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\aggregate\distributive\duckdb_core_functions_distributive.dir\Release\duckdb_core_functions_distributive.lib
+  duckdb_core_functions_holistic.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\aggregate\holistic\duckdb_core_functions_holistic.dir\Release\duckdb_core_functions_holistic.lib
+C:\Work\GH\repos\duckdb-documentdb\duckdb\extension\core_functions\scalar\date\date_part.cpp(1935,1): warning C4715: 'duckdb::`anonymous namespace'::DatePartUnaryCallback': not all control paths return a value [C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\date\duckdb_core_functions_date.vcxproj]
+  duckdb_yyjson.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\third_party\yyjson\Release\duckdb_yyjson.lib
+  duckdb_core_functions_string.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\string\duckdb_core_functions_string.dir\Release\duckdb_core_functions_string.lib
+  duckdb_core_functions_date.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\scalar\date\duckdb_core_functions_date.dir\Release\duckdb_core_functions_date.lib
+  duckdb_parquet_writer_variant.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\parquet\writer\variant\duckdb_parquet_writer_variant.dir\Release\duckdb_parquet_writer_variant.lib
+  duckdb_core_functions_nested.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\aggregate\nested\duckdb_core_functions_nested.dir\Release\duckdb_core_functions_nested.lib
+  duckdb_parquet_writers.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\parquet\writer\duckdb_parquet_writers.dir\Release\duckdb_parquet_writers.lib
+  duckdb_parquet_reader_variant.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\parquet\reader\variant\duckdb_parquet_reader_variant.dir\Release\duckdb_parquet_reader_variant.lib
+  Compiling...
+  unicode_groups.cc
+  rune.cc
+  strutil.cc
+  Generating Code...
+  duckdb_re2.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\third_party\re2\Release\duckdb_re2.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/src/CMakeLists.txt
+  duckdb_static.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\src\Release\duckdb_static.lib
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/parquet/CMakeLists.txt
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/CMakeLists.txt
+  documentdb_extension.cpp
+  column_reader.cpp
+  Building Custom Rule C:/Work/GH/repos/duckdb-documentdb/duckdb/extension/core_functions/CMakeLists.txt
+  core_functions_extension.cpp
+  documentdb_connection.cpp
+  documentdb_schema.cpp
+  function_list.cpp
+  documentdb_scan.cpp
+  Generating Code...
+  documentdb_extension.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\documentdb\Release\documentdb_extension.lib
+  column_writer.cpp
+  lambda_functions.cpp
+  Generating Code...
+  core_functions_extension.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\core_functions\Release\core_functions_extension.lib
+  parquet_crypto.cpp
+  parquet_file_metadata_cache.cpp
+  parquet_float16.cpp
+  parquet_multi_file_info.cpp
+  parquet_metadata.cpp
+  parquet_prefetch_cost_model.cpp
+  parquet_reader.cpp
+  parquet_field_id.cpp
+  parquet_statistics.cpp
+  parquet_timestamp.cpp
+  parquet_writer.cpp
+  parquet_shredding.cpp
+  parquet_column_schema.cpp
+  parquet_geometry.cpp
+  serialize_parquet.cpp
+  zstd_file_system.cpp
+  parquet_types.cpp
+  TProtocol.cpp
+  Generating Code...
+  Compiling...
+  TTransportException.cpp
+  TBufferTransports.cpp
+  snappy.cc
+  snappy-sinksource.cc
+  lz4.cpp
+  dictionary_hash.cpp
+  backward_references_hq.cpp
+  histogram.cpp
+  memory.cpp
+  entropy_encode.cpp
+  compound_dictionary.cpp
+  compress_fragment_two_pass.cpp
+  block_splitter.cpp
+  command.cpp
+  encode.cpp
+  encoder_dict.cpp
+  cluster.cpp
+  backward_references.cpp
+  utf8_util.cpp
+  compress_fragment.cpp
+  Generating Code...
+  Compiling...
+  fast_log.cpp
+  brotli_bit_stream.cpp
+  bit_cost.cpp
+  static_dict.cpp
+  literal_cost.cpp
+  metablock.cpp
+  dictionary.cpp
+  constants.cpp
+  transform.cpp
+  platform.cpp
+  shared_dictionary.cpp
+  context.cpp
+  state.cpp
+  decode.cpp
+  huffman.cpp
+  bit_reader.cpp
+  Generating Code...
+  parquet_extension.cpp
+  parquet_extension.vcxproj -> C:\Work\GH\repos\duckdb-documentdb\build\extension\parquet\Release\parquet_extension.lib

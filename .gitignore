@@ -1,0 +1,10 @@
+build/
+cmake-build-debug/
+cmake-build-release/
+.vscode/
+.DS_Store
+*.log
+*.swp
+*.user
+__pycache__/
+*.pyc
