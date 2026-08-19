@@ -11,6 +11,8 @@ This repository is a practical starting point for a DuckDB extension that target
 - a real extension entry point for loading functions into DuckDB
 - an extension build configuration aligned with DuckDB’s extension model
 
+The initial extension surface is read-only. It supports collection discovery, schema inference, scans, and query pushdown, but does not provide insert, update, or delete operations.
+
 ## Key design goals
 
 - expose DocumentDB collections through DuckDB SQL
@@ -43,6 +45,16 @@ SELECT documentdb_collections('app') AS collections;
 git submodule update --init --recursive
 make build
 ```
+
+## Docker end-to-end test
+
+The end-to-end test starts the official DocumentDB Local image, creates test data through `mongosh`, and verifies that the C++ connection layer discovers and filters the real collection through the MongoDB wire protocol:
+
+```bash
+./tests/run_documentdb_e2e.sh
+```
+
+The script generates an ephemeral password for each run and removes the test container and network when it finishes. Self-signed TLS certificates are accepted only by this local test configuration.
 
 ## Status
 

@@ -13,6 +13,8 @@ struct ConnectionConfig {
     std::string password;
     std::string auth_source;
     bool tls = false;
+    bool tls_allow_invalid_certificates = false;
+    int server_selection_timeout_ms = 5000;
 };
 
 struct Document {

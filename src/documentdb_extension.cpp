@@ -13,6 +13,7 @@ inline void DocumentDBVersionScalarFun(DataChunk &args, ExpressionState &state, 
     auto &name_vector = args.data[0];
     UnaryExecutor::Execute<string_t, string_t>(name_vector, result, args.size(), [&](string_t name) {
         auto db_name = name.GetString();
+        // TODO: Replace the scaffold version with the extension build version.
         return StringVector::AddString(result, "documentdb:" + db_name + " v0.1.0");
     });
 }
@@ -21,6 +22,7 @@ inline void DocumentDBCollectionsScalarFun(DataChunk &args, ExpressionState &sta
     auto &name_vector = args.data[0];
     UnaryExecutor::Execute<string_t, string_t>(name_vector, result, args.size(), [&](string_t name) {
         (void)name;
+        // TODO: Replace the scaffold collection list with live DocumentDB discovery.
         return StringVector::AddString(result, R"(["orders","users","inventory"])"
         );
     });
