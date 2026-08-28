@@ -1,0 +1,29 @@
+FROM ubuntu:24.04
+
+RUN apt-get update \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+        ca-certificates \
+        g++ \
+        libmongoc-dev \
+        pkg-config \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /workspace
+COPY include/ include/
+COPY src/documentdb_connection.cpp src/documentdb_connection.cpp
+COPY tests/documentdb_e2e_test.cpp tests/documentdb_e2e_test.cpp
+COPY duckdb/third_party/yyjson/yyjson.cpp duckdb/third_party/yyjson/yyjson.cpp
+COPY duckdb/third_party/yyjson/include/ duckdb/third_party/yyjson/include/
+COPY duckdb/src/include/ duckdb/src/include/
+
+RUN g++ -std=c++17 -O2 \
+    -Iinclude \
+    -Iduckdb/third_party/yyjson/include \
+    -Iduckdb/src/include \
+    tests/documentdb_e2e_test.cpp \
+    src/documentdb_connection.cpp \
+    duckdb/third_party/yyjson/yyjson.cpp \
+    $(pkg-config --cflags --libs libmongoc-1.0) \
+    -o /usr/local/bin/documentdb_e2e_test
+
+ENTRYPOINT ["/usr/local/bin/documentdb_e2e_test"]

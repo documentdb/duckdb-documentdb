@@ -1,0 +1,12 @@
+{
+  "name": "duckdb-documentdb",
+  "version-string": "0.1.0",
+  "dependencies": [
+    {
+      "name": "mongo-c-driver",
+      "features": [
+        "openssl"
+      ]
+    }
+  ]
+}
