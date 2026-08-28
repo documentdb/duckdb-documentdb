@@ -8,10 +8,34 @@ project(${TARGET_NAME})
 
 set(CMAKE_CXX_STANDARD "17" CACHE STRING "C++ standard to enforce")
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+if(COMMAND set_extension_version_sources)
+  set_extension_version_sources(${TARGET_NAME} src/documentdb_extension.cpp)
+endif()
 
-find_package(mongoc CONFIG REQUIRED)
+find_package(mongoc CONFIG QUIET)
+if(NOT mongoc_FOUND)
+  find_package(mongoc-1.0 CONFIG QUIET)
+endif()
+if(NOT mongoc_FOUND AND NOT mongoc-1.0_FOUND)
+  find_package(mongo-c-driver CONFIG REQUIRED)
+endif()
 
-include_directories(src/include)
+set(MONGOC_TARGET "")
+if(TARGET mongoc::mongoc_static)
+  set(MONGOC_TARGET mongoc::mongoc_static)
+elseif(TARGET mongoc::mongoc)
+  set(MONGOC_TARGET mongoc::mongoc)
+elseif(TARGET mongo::mongoc_static)
+  set(MONGOC_TARGET mongo::mongoc_static)
+elseif(TARGET mongo::mongoc_shared)
+  set(MONGOC_TARGET mongo::mongoc_shared)
+elseif(TARGET mongo::mongoc)
+  set(MONGOC_TARGET mongo::mongoc)
+else()
+  message(FATAL_ERROR "MongoDB C driver package was found, but no usable mongoc target could be resolved.")
+endif()
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include ${CMAKE_CURRENT_SOURCE_DIR}/src/include)
 
 set(EXTENSION_SOURCES
     src/documentdb_extension.cpp
@@ -23,17 +47,19 @@ set(EXTENSION_SOURCES
 build_static_extension(${TARGET_NAME} ${EXTENSION_SOURCES})
 build_loadable_extension(${TARGET_NAME} " " ${EXTENSION_SOURCES})
 
-target_link_libraries(${EXTENSION_NAME} duckdb_yyjson mongoc::static)
-target_link_libraries(${LOADABLE_EXTENSION_NAME} duckdb_yyjson mongoc::static)
+target_link_libraries(${EXTENSION_NAME} PRIVATE duckdb_yyjson ${MONGOC_TARGET})
+target_link_libraries(${LOADABLE_EXTENSION_NAME} PRIVATE duckdb_yyjson ${MONGOC_TARGET})
 
 target_include_directories(${EXTENSION_NAME}
     PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/include
 )
 
 target_include_directories(${LOADABLE_EXTENSION_NAME}
     PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/include
 )
 
 include(CTest)
