@@ -47,8 +47,8 @@ set(EXTENSION_SOURCES
 build_static_extension(${TARGET_NAME} ${EXTENSION_SOURCES})
 build_loadable_extension(${TARGET_NAME} " " ${EXTENSION_SOURCES})
 
-target_link_libraries(${EXTENSION_NAME} PRIVATE duckdb_yyjson ${MONGOC_TARGET})
-target_link_libraries(${LOADABLE_EXTENSION_NAME} PRIVATE duckdb_yyjson ${MONGOC_TARGET})
+target_link_libraries(${EXTENSION_NAME} duckdb_yyjson ${MONGOC_TARGET})
+target_link_libraries(${LOADABLE_EXTENSION_NAME} duckdb_yyjson ${MONGOC_TARGET})
 
 target_include_directories(${EXTENSION_NAME}
     PUBLIC
